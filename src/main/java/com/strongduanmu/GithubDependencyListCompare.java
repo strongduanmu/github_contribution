@@ -25,11 +25,11 @@ public final class GithubDependencyListCompare {
         VALID_LICENSES.add("Apache 2.0");
         VALID_LICENSES.add("BSD-2-Clause");
         VALID_LICENSES.add("BSD-3-Clause");
-        VALID_LICENSES.add("New BSD License");
         VALID_LICENSES.add("CDDL");
         VALID_LICENSES.add("EPL 1.0");
         VALID_LICENSES.add("MIT");
         VALID_LICENSES.add("CC0 1.0");
+        VALID_LICENSES.add("EDL 1.0");
     }
     
     public static void main(String[] args) throws IOException {
