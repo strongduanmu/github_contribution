@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public final class GithubDependencyListCompare {
     
-    private static final String PROXY_BIN_PATH = "/Users/strongduanmu/IdeaProjects/shardingsphere-dev/shardingsphere-distribution/shardingsphere-proxy-distribution/target/apache-shardingsphere-5.1.3-SNAPSHOT-shardingsphere-proxy-bin";
+    private static final String PROXY_BIN_PATH = "/Users/strongduanmu/IdeaProjects/shardingsphere-dev/shardingsphere-distribution/shardingsphere-proxy-distribution/target/apache-shardingsphere-5.2.1-SNAPSHOT-shardingsphere-proxy-bin";
     private static final String RELEASE_LIB_PATH = PROXY_BIN_PATH + "/lib";
     private static final String RELEASE_LICENSE_PATH = PROXY_BIN_PATH + "/LICENSE";
     private static final Pattern VERSION_PATTERN = Pattern.compile("-\\d+(\\.\\d+)*");
